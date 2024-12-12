@@ -1,7 +1,7 @@
 
       resource "aws_instance" "teste1" {
-        ami = "teste1"
-        instance_type = "a1.metal"
+        ami = "teste2"
+        instance_type = "c3.large"
         
         
 	capacity_reservation_specification: {
@@ -52,5 +52,4 @@
 	source_dest_check: true,
 	tags: [],
 	vpc_security_group_ip: []
-}
       }
