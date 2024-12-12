@@ -24,10 +24,9 @@
 	storage_type: "",
 	tags: [],
 	vpc_security_group_ids: [],
-	allocated_space: 50,
-	db_cluster_instance_class: "db.m5.8xlarge",
-	engine: "postgres",
-	master_username: "admin",
-	master_password: "password"
-}
+	allocated_space: 25,
+	db_cluster_instance_class: "db.m5.2xlarge",
+	engine: "aurora-postgresql",
+	master_username: "admin2",
+	master_password: "password2"
       }
