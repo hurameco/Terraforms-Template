@@ -1,7 +1,7 @@
 
       resource "aws_instance" "teste1" {
         ami = "teste1"
-        instance_type = "c4.4xlarge"
+        instance_type = "a1.metal"
         
         
 	capacity_reservation_specification: {
